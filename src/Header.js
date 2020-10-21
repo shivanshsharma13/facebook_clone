@@ -2,7 +2,7 @@ import React from 'react';
 import "./header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import HomeIcon from "@material-ui/icons/Home";
-import FlagIcon from "@material-ui/icons/Flag";
+import DehazeIcon from '@material-ui/icons/Dehaze';
 import SubscriptionsOutlinedIcon from "@material-ui/icons/SubscriptionsOutlined";
 import StorefrontOutlinedIcon from "@material-ui/icons/StorefrontOutlined";
 import SupervisedUserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
@@ -17,15 +17,14 @@ import { useStateValue } from './StateProvider';
 
 function Header() {
 
-    const [{ user }, {dispatch}] = useStateValue();
+    const [{ user }] = useStateValue();
     return <div className = "header">
             
             <div className="header__left">
                 <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt=""/>
                 
                 <div className="header__input">
-                    <SearchIcon />
-                    <input placeholder="Search Facebook" type="text"></input>
+                    <SearchIcon color="black" fontSize="medium"/>
                 </div>
 
             </div>
@@ -34,10 +33,6 @@ function Header() {
 
                 <div className="header__option header__option--active">
                     <HomeIcon fontSize="large" />
-                </div>
-
-                <div className="header__option">
-                    <FlagIcon fontSize="large" />
                 </div>
 
                 <div className="header__option">
@@ -52,27 +47,30 @@ function Header() {
                     <SupervisedUserCircleIcon fontSize="large" />
                 </div>
 
+                <div className="header__option">
+                    <DehazeIcon fontSize="large" />
+                </div>
+
             </div>
             
             <div className="header__right">
-                <div className = "header__info">
+                {/* <div className = "header__info">
                     <Avatar src={user.photoURL}/>
-                    <h4>{user.displayName}</h4>
-                </div>
+                </div> */}
                 <IconButton>
-                    <AddIcon />
+                    <AddIcon fontSize="medium" className="header__rightoption"/>
                 </IconButton>
 
                 <IconButton>
-                    <ForumIcon />
+                    <ForumIcon fontSize="medium" className="header__rightoption"/>
                 </IconButton>
 
                 <IconButton>
-                    <NotificationsActiveIcon />
+                    <NotificationsActiveIcon fontSize="medium" className="header__rightoption"/>
                 </IconButton>
 
                 <IconButton>
-                    <ExpandMoreIcon />
+                    <ExpandMoreIcon fontSize="medium" className="header__rightoption"/>
                 </IconButton>
             </div>
 
