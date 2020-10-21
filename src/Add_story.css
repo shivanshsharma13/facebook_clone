@@ -1,0 +1,33 @@
+.add_story {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  height: 130px;
+  box-shadow: opx 5px 17px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+
+.add_story:hover {
+  transform: scale(1.07);
+}
+
+.add_story__avatar {
+  margin-top: 120px;
+  margin-left: 40px;
+  background-color: #2e81f4;
+  border: 3px solid white;
+  color: white;
+  padding: 5px;
+  border-radius: 999px;
+}
+
+.add_story > h5 {
+  position: absolute;
+  left: 20px;
+  color: black;
+}

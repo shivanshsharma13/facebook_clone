@@ -13,4 +13,7 @@ function Story({image, profilesrc, title}) {
 
 }
 
+
 export default Story
+
+

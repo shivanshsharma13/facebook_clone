@@ -24,7 +24,8 @@ function Header() {
                 <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt=""/>
                 
                 <div className="header__input">
-                    <SearchIcon color="black" fontSize="medium"/>
+                    <SearchIcon fontSize="medium"/>
+                    <input placeholder="Search the facebook"></input>
                 </div>
 
             </div>
@@ -54,9 +55,9 @@ function Header() {
             </div>
             
             <div className="header__right">
-                {/* <div className = "header__info">
+                <div className = "header__info">
                     <Avatar src={user.photoURL}/>
-                </div> */}
+                </div>
                 <IconButton>
                     <AddIcon fontSize="medium" className="header__rightoption"/>
                 </IconButton>
