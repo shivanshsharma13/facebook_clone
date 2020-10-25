@@ -2,9 +2,9 @@
   padding: 0px 15px 0px 15px;
   display: flex;
   justify-content: space-between;
-
   position: sticky;
   background-color: white;
+  max-width: 100%;
   z-index: 100;
   top: 0;
   box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
@@ -96,7 +96,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .header__left {
+  .header {
+    justify-content: space-between;
   }
 
   .header__center {
@@ -104,6 +105,5 @@
   }
 
   .header__right {
-    padding-left: 40%;
   }
 }
