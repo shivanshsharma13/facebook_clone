@@ -94,3 +94,16 @@
   color: black;
   padding: 12px 10px 12px 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .header__left {
+  }
+
+  .header__center {
+    display: none;
+  }
+
+  .header__right {
+    padding-left: 40%;
+  }
+}

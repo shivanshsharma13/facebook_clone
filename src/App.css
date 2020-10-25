@@ -1,8 +1,13 @@
-.app{
-    height: 100vh;
+.app {
+  height: 100vh;
 }
 
+.app__body {
+  display: flex;
+}
 
-.app__body{
-    display: flex;
+@media only screen and (max-width: 600px) {
+  .app {
+    width: 100%;
+  }
 }
