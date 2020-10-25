@@ -2,6 +2,8 @@
 
 ![Main GIF](main.png "Main")
 
+# [Live facebook clone demo](https://shivkaansh.github.io/facebook_clone/)
+
 This is just a copy of the world leading social media, facebook. The best way of learning a new skill is by making projects. This is my fist major project. As facebook itself uses react for making things.
 
 ## Key Points
