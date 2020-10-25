@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/facebook-clone/static/css/main.86823631.chunk.css",
-    "main.js": "/facebook-clone/static/js/main.1f35b04e.chunk.js",
-    "main.js.map": "/facebook-clone/static/js/main.1f35b04e.chunk.js.map",
-    "runtime-main.js": "/facebook-clone/static/js/runtime-main.7a86f86c.js",
-    "runtime-main.js.map": "/facebook-clone/static/js/runtime-main.7a86f86c.js.map",
-    "static/js/2.99ce5d59.chunk.js": "/facebook-clone/static/js/2.99ce5d59.chunk.js",
-    "static/js/2.99ce5d59.chunk.js.map": "/facebook-clone/static/js/2.99ce5d59.chunk.js.map",
-    "index.html": "/facebook-clone/index.html",
-    "precache-manifest.4f48fbe62c1cf25935a300c8e2e320b0.js": "/facebook-clone/precache-manifest.4f48fbe62c1cf25935a300c8e2e320b0.js",
-    "service-worker.js": "/facebook-clone/service-worker.js",
-    "static/css/main.86823631.chunk.css.map": "/facebook-clone/static/css/main.86823631.chunk.css.map",
-    "static/js/2.99ce5d59.chunk.js.LICENSE.txt": "/facebook-clone/static/js/2.99ce5d59.chunk.js.LICENSE.txt"
+    "main.css": "/facebook_clone/static/css/main.86823631.chunk.css",
+    "main.js": "/facebook_clone/static/js/main.2daf52ba.chunk.js",
+    "main.js.map": "/facebook_clone/static/js/main.2daf52ba.chunk.js.map",
+    "runtime-main.js": "/facebook_clone/static/js/runtime-main.49b2e2b5.js",
+    "runtime-main.js.map": "/facebook_clone/static/js/runtime-main.49b2e2b5.js.map",
+    "static/js/2.f30fdcac.chunk.js": "/facebook_clone/static/js/2.f30fdcac.chunk.js",
+    "static/js/2.f30fdcac.chunk.js.map": "/facebook_clone/static/js/2.f30fdcac.chunk.js.map",
+    "index.html": "/facebook_clone/index.html",
+    "precache-manifest.ec5c3623fe148723e51a279e29ed4fe4.js": "/facebook_clone/precache-manifest.ec5c3623fe148723e51a279e29ed4fe4.js",
+    "service-worker.js": "/facebook_clone/service-worker.js",
+    "static/css/main.86823631.chunk.css.map": "/facebook_clone/static/css/main.86823631.chunk.css.map",
+    "static/js/2.f30fdcac.chunk.js.LICENSE.txt": "/facebook_clone/static/js/2.f30fdcac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7a86f86c.js",
-    "static/js/2.99ce5d59.chunk.js",
+    "static/js/runtime-main.49b2e2b5.js",
+    "static/js/2.f30fdcac.chunk.js",
     "static/css/main.86823631.chunk.css",
-    "static/js/main.1f35b04e.chunk.js"
+    "static/js/main.2daf52ba.chunk.js"
   ]
 }
