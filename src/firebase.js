@@ -3,7 +3,7 @@ import firebase from "firebase";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDG29iTjuencNxCEq4to6-Nnm4ayNjbNww",
-  authDomain: "https://shivanshsharma13.github.io/facebook_clone",
+  authDomain: "facebook-clone-1390d.firebaseapp.com",
   databaseURL: "https://facebook-clone-1390d.firebaseio.com",
   projectId: "facebook-clone-1390d",
   storageBucket: "facebook-clone-1390d.appspot.com",
